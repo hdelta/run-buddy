@@ -1,3 +1,4 @@
+/***************************** Umbrella */
 * {
     margin: 0;
     padding: 0;
@@ -9,6 +10,7 @@ body {
     color: #39a6b2;
 }
 
+/***************************** Header */
 header {
     padding: 20px 35px;
     background-color: #39a6b2;
@@ -41,37 +43,14 @@ header nav ul li a {
     font-weight: lighter;
     font-size: 22px;
 }
+/***************************** Header End */
 
-footer {
-    background: #fce138;
-    width: 100%;
-    padding: 40px 35px;
-}
-
-footer h2 {
-    display: inline;
-    color: #024e76;
-    font-size: 30px;
-    margin: 0;
-}
-
-footer div {
-    float: right;
-    line-height: 1.5;
-    text-align: right;
-    font-size: 20px;
-}
-
-footer a {
-    color: #024e76;
-    font-size: 20px;
-}
 
 section {
     padding: 60px;
 }
 
-/* Hero Style Start */
+/***************************** Hero Style Start */
 .hero {
     background-image: url("../images/hero-bg.jpg");
     height: 600px;
@@ -123,20 +102,19 @@ section {
     padding: 10px 20px;
     font-size: 16px;
 }
-/* Hero Style End */
+/***************************** Hero Style End */
  
 
-/* icons start */
-/* What We D0*/
-
+/***************************** icons start */
+/***************************** What We D0*/
 .section-title {
-    display: inline-block;
     font-size: 55px;
-    color: #024e76;
-    margin-bottom: 35px;
+    display: inline-block;
     padding: 0 100px 20px 100px;
     border-bottom: 3px solid;
-}
+    margin-bottom: 35px;
+    color: #024e76;
+  }
 
 .primary-border {
     border-color: #fce138;
@@ -162,7 +140,7 @@ section {
     font-size: 20px;
 }
 
-/* What You DO*/
+/***************************** What You DO*/
 .steps {
     text-align: center;
     background: #fce138;
@@ -195,12 +173,13 @@ section {
 .steps span {
     font-size: 38px;
 }
-/* icon ends */
+/***************************** icon ends */
  
 
-/* Trainers Bios */
+/***************************** Trainers Bios */
 .trainers {
     text-align: center;
+    display: block;
 }
 
 .trainer {
@@ -209,6 +188,7 @@ section {
     background: #024e76;
     color: #fce138;
     overflow: auto;
+    display: inline-block;
 }
 
 .trainer img {
@@ -246,7 +226,9 @@ section {
     text-align: right;
 }
 
-/* Reach Out Start */
+/***************************** Reach Out Start */
+
+
 .contact {
     text-align: center;
     background: #024e76;
@@ -256,16 +238,63 @@ section {
     color: #fce138;
 }
 
+
 .contact-info iframe {
     width: 400px;
     height: 400px;
+    float: left;   
 }
 
-.contact-info div {
+.contact-info {
     width: 410px;
     display: inline-block;
     vertical-align: top;
     text-align: left;
     margin: 30px 0 0 60px;
     color: white;
+  }
+
+  .contact-info h3 {
+    color: #fce138;
+    font-size: 32px;
+  }
+  
+  .contact-info p, .contact-info address {
+    margin: 20px 0;
+    line-height: 1.5;
+    font-size: 20px;
+    font-style: normal;
+  }
+  
+  .contact-info a {
+    color: #fce138;
+  }
+/***************************** Reach Out End */
+
+
+/***************************** Footer Start */
+footer {
+    background: #fce138;
+    width: 100%;
+    padding: 40px 35px;
 }
+
+footer h2 {
+    display: inline;
+    color: #024e76;
+    font-size: 30px;
+    margin: 0;
+}
+
+footer div {
+    float: right;
+    line-height: 1.5;
+    text-align: right;
+    font-size: 20px;
+}
+
+footer a {
+    color: #024e76;
+    font-size: 20px;
+}
+/**************************** Footer End */
